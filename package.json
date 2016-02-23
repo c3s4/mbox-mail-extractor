@@ -1,0 +1,29 @@
+{
+  "name": "mbox-mail-extractor",
+  "version": "0.1.0",
+  "description": "A little app to extract mail from mbox and received from a specified sender",
+  "main": "mail-extractor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivalafiestaaa/mbox-mail-extractor.git"
+  },
+  "keywords": [
+    "mail",
+    "extraction",
+    "message",
+    "text"
+  ],
+  "dependencies" : {
+    "node-mbox" : "0.2.x",
+    "mailparser" : "0.5.x"
+  },
+  "author": "Davide Cesaroni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivalafiestaaa/mbox-mail-extractor/issues"
+  },
+  "homepage": "https://github.com/vivalafiestaaa/mbox-mail-extractor#readme"
+}
