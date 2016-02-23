@@ -2,6 +2,7 @@ var Mbox = require('node-mbox');
 var MailParser = require('mailparser').MailParser;
 
 var mboxFilePath = process.argv[2];
+var senderMailAddress = process.argv[3];
 var mbox = new Mbox(mboxFilePath);
 
 mbox.on('message', function(msg) {
